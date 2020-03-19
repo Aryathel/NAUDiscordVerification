@@ -1,27 +1,27 @@
 # NAU Esports Discord Verification
 This bot manages the NAU Esports discord server verification. When a user joins, they are DM'ed a survey.
 For more information on how the bot works, each file is well commented.
-`main.py` is where the core of the bot is contained, with the majority of the commands and functionality residing in the files in the `Cogs` folder.
-The majority of the actual intentioned functionality of this bot lies in the `Welcome.py` file in the `Cogs` folder.
-These `Cogs` and the `main` file all pull extra resources (enums, the sheets api, extra functions) from the `Resources` folder.
+The [main](main.py) file is where the core of the bot is contained, with the majority of the commands and functionality residing in the files in the [Cogs](Cogs/) folder.
+The majority of the actual intentioned functionality of this bot lies in the [Welcome.py](Cogs/Welcome.py) file in the [Cogs](Cogs/) folder.
+These [Cogs](Cogs/) and the [main](main.py) file all pull extra resources (enums, the sheets api, extra functions) from the [Resources](Resources/) folder.
 
 ## Author
-This bot was originally written by (Heroicos_HM)[https://github.com/HeroicosHM].
+This bot was originally written by [Heroicos_HM](https://github.com/HeroicosHM).
 
 # Setup
 For Windows:
-  1. Download and install (Python)[https://www.python.org/] (the bot was written in version 3.8.1).
-  1. Double click the `Setup.bat` file to run it.
-  1. Save your Google Sheets API credentials file in the `Data` folder. (you can create one in Step 1 on (this)[https://developers.google.com/sheets/api/quickstart/python] page)
-  1. Edit the `Config.yml` and `Permissions.yml` files.
-  1. Double click the `Start.bat` file to run the bot.
+  1. Download and install [Python](https://www.python.org/) (the bot was written in version 3.8.1).
+  1. Double click the [Setup.bat](Setup.bat) file to run it.
+  1. Save your Google Sheets API credentials file in the [Data](Data/) folder. (you can create one in Step 1 on [this page](https://developers.google.com/sheets/api/quickstart/python))
+  1. Edit the [Config.yml](Config.yml) and [Permissions.yml](Permissions.yml) files.
+  1. Double click the [Start.bat](Start.bat) file to run the bot.
 
 For *~nix* Systems (Mac, Linux):
-  1. Download and install (Python)[https://www.python.org/] (the bot was written in version 3.8.1).
-  1. Double click the `Setup.sh` file to run it.
-  1. Save your Google Sheets API credentials file in the `Data` folder. (you can create one in Step 1 on (this)[https://developers.google.com/sheets/api/quickstart/python] page)
-  1. Edit the `Config.yml` and `Permissions.yml` files.
-  1. Double click the `Start.sh` file to run the bot.
+  1. Download and install [Python](https://www.python.org/) (the bot was written in version 3.8.1).
+  1. Double click the [Setup.sh](Setup.sh) file to run it.
+  1. Save your Google Sheets API credentials file in the [Data](Data/) folder. (you can create one in Step 1 on [this page](https://developers.google.com/sheets/api/quickstart/python))
+  1. Edit the [Config.yml](Config.yml) and [Permissions.yml](Permissions.yml) files.
+  1. Double click the [Start.sh](Start.sh) file to run the bot.
 
 # License
 MIT License
