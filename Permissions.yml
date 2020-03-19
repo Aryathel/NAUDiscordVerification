@@ -1,0 +1,26 @@
+# Add permissions to the list below in the format shown
+# In order to restrict commands to certain roles to use them.
+# Get role IDs by rinding them in the role list in server settings,
+# then right-clicking the role and Copying the ID
+
+restart:
+  - name: Everyone
+    id: 421191515700723714
+  #- name: Admin
+  #  id: 123123123123123
+
+ping:
+  - name: Everyone
+    id: 421191515700723714
+
+uptime:
+  - name: Everyone
+    id: 421191515700723714
+
+help:
+  - name: Everyone
+    id: 421191515700723714
+
+prefix:
+  - name: Everyone
+    id: 421191515700723714

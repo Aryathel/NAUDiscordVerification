@@ -1,0 +1,88 @@
+# Here is where you put your bot token.
+# To get the bot token, go to this link: https://discordapp.com/developers/applications/
+# Find the application for the bot, or create one.
+# Open that application, look for the Bot tab on the left. Add a bot if one does not already exist
+# Right under the name, click the Copy button under the Token
+TOKEN: BOT_TOKEN_HERE
+
+# A list of channels that log messages will be sent to.
+# Right click a channel and click `Copy ID` to get a channel ID.
+# NOTE: You must have Developer Mode enabled in accessibility settings.
+Log Channels:
+- 601811847590576152
+  # Un-comment the line below (remove the '#') and set the id here to add another channel.
+  #- 000000000000000000
+
+# The color of the sidebar of the messages. Must be in decimal format.
+# This link will let you pick Hex colors: https://www.google.com/search?q=hex+color+picker&oq=&sourceid=chrome&ie=UTF-8
+# This link will convert Hex colors to decimal: https://www.rapidtables.com/convert/number/hex-to-decimal.html
+Embed Colors:
+- 12308979   # Light Blue
+  #- 4379892 # If you add more colors, it will choose random colors.
+
+# The ID of the role that you want users to be assigned when they are from the school.
+# Can be found by mentioning that role then typing a `\` before it: \@Member
+Student Role ID: 689935103844941865
+
+# The ID of the role that you want users to be assigned when they are not from the school.
+# Can be found by mentioning that role then typing a `\` before it: \@Visitor
+Non Student Role ID: 689935113064415316
+
+# The ID of the role that you want users to be assigned when they should not be touched during role resets.
+# Can be found by mentioning that role then typing a `\` before it: \@Officer
+Officer Role ID: null
+
+# The ID of the Guild
+# Right click on the server icon and click `Copy ID` to get the ID.
+# NOTE: You must have Developer Mode enabled in accessibility settings.
+Guild ID: 421191515700723714
+
+# The url for the icon at the bottom of your footer image.
+# To use an image sent from discord, right click the image,
+# copy the link, and paste it below.
+Footer Icon URL: https://cdn.discordapp.com/attachments/656365651077627928/689934551216160774/NAUEsportsLogo.png
+
+# The text for the footer of the messages.
+Footer Text: NAU Esports
+
+# The text for the online log message - use '{username}' to show the bot's username.
+# Appears in the logs channels
+Online Message: '{username} Online!'
+
+# The text for the restarting log message - use '{username}' to show the bot's username.
+# Appears in the logs channels
+Restarting Message: '{username} Restarting...'
+
+# Command prefix for all commands.
+Prefix: '>'
+
+# The file where data gets stored. Probably shouldn't mess with this.
+Data File: ./Data/data_storage.json
+
+# The file where the Google API credentials get stored. Probably shouldn't mess with this.
+Google API Credentials File: ./Data/credentials.json
+
+# The file where the access token gets stored. Probably should touch this.
+Token File: ./Data/token.pickle
+
+# A list of settings which are optional. More explained for each setting.
+Options:
+  # This option will show the timestamp at the end of
+  # the footer of the embedded messages.
+  Embed Timestamp: false
+
+  # This option will delete the user's message after they send a command.
+  # NOTE: THE BOT NEEDS THE 'MANAGE MESSAGES' PERMISSION FOR THIS TO WORK
+  Delete Commands: false
+
+  # This will show the author at the top of the message as the person tho used the command.
+  # Works well in combination with 'Delete Commands'
+  Show Author: false
+
+  # Sets the 'Playing' status of the bot.
+  Game Status:
+    # 'true' will display 'Playing <Game>', 'false' won't display anything.
+    Active: true
+    # The game to display - use '{prefix}' to put in the bots prefix.
+    # Default: '{prefix}help'
+    Game: '{prefix}help'
