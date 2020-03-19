@@ -479,14 +479,14 @@ class Welcome(commands.Cog, name = "Welcome"):
                     if self.bot.use_timestamp:
                         embed = discord.Embed(
                             title = "Registration Complete!",
-                            description = 'Welcome to NAU Esports!',
+                            description = 'Welcome to NAU Esports!\n\nIf you are a Campus Faculty Member at NAU please contact an Officer.',
                             color = random.choice(self.bot.embed_colors),
                             timestamp = datetime.datetime.now(datetime.timezone.utc)
                         )
                     else:
                         embed = discord.Embed(
                             title = "Registration Complete!",
-                            description = 'Welcome to NAU Esports!',
+                            description = 'Welcome to NAU Esports!\n\nIf you are a Campus Faculty Member at NAU please contact an Officer.',
                             color = random.choice(self.bot.embed_colors)
                         )
                     embed.set_footer(
